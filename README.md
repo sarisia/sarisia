@@ -10,10 +10,10 @@
 
 ### Languages
 
-- Python (asyncio lover)
+- Python (especially asyncio)
 - Golang
 - JavaScript (TypeScript)
-...
+- ...
 
 ### Links
 
