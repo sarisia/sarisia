@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm ci
-      - run: npm run build
       - uses: sarisia/actions-doc-feed@v1
         with:
           url: 'https://note.sarisia.cc/index.xml'
