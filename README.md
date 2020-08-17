@@ -12,6 +12,8 @@
 - Jul 29 - [UWP アプリは localhost へ接続できない](https://note.sarisia.cc/entry/uwp-localhost/)
 <!-- feed end -->
 
+> Generated with [Actions Readme Feed](https://github.com/marketplace/actions/actions-readme-feed)
+
 ### Natural Languages
 
 - Japanese
