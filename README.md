@@ -1,8 +1,8 @@
-### Fu Takakazu (a.k.a Sarisia)
+## :ramen: Fu Takakazu (a.k.a Sarisia)
 
 [![](https://github-readme-stats.vercel.app/api?username=sarisia&count_private=true&show_icons=true&bg_color=30,e55d87,5fc3e4&title_color=ffffff&icon_color=ffffff&text_color=ffffff)](https://github.com/anuraghazra/github-readme-stats)
 
-### Recent Blog Posts
+### :memo: Recent Blog Posts
 
 <!-- feed start -->
 - Aug 17 - [RSS フィードを GitHub プロフィールに表示する](https://note.sarisia.cc/entry/actions-readme-feed/)
@@ -14,20 +14,20 @@
 
 > Generated with [Actions Readme Feed](https://github.com/marketplace/actions/actions-readme-feed)
 
-### Natural Languages
+### :abc: Natural Languages
 
-- Japanese
-- English
-- Chinese (Simplified)
+- :jp: Japanese
+- :us: English
+- :cn: Chinese (Simplified)
 
-### Languages
+### :computer: Languages
 
 - Python (especially asyncio)
 - Golang
 - JavaScript (TypeScript)
 - ...
 
-### Links
+### :link: Links
 
 - [Portfolio](https://sarisia.cc/)
 - [Blog](https://note.sarisia.cc/)
