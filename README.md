@@ -5,11 +5,11 @@
 ### :memo: Recent Blog Posts
 
 <!-- feed start -->
+- Aug 21 - [C.UTF-8 とは何だったのか](https://note.sarisia.cc/entry/what-is-c-utf8/)
 - Aug 17 - [RSS フィードを GitHub プロフィールに表示する](https://note.sarisia.cc/entry/actions-readme-feed/)
 - Aug 10 - [fish スクリプトのデバッグ](https://note.sarisia.cc/entry/debugging-fish-script/)
 - Aug 08 - [Arch Linux Install Battle](https://note.sarisia.cc/entry/arch-linux-install-battle/)
 - Aug 05 - [Linuxbrew で emscripten を導入する](https://note.sarisia.cc/entry/linuxbrew-emscripten/)
-- Jul 29 - [UWP アプリは localhost へ接続できない](https://note.sarisia.cc/entry/uwp-localhost/)
 <!-- feed end -->
 
 > Generated with [Actions Readme Feed](https://github.com/marketplace/actions/actions-readme-feed)
