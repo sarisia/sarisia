@@ -20,16 +20,14 @@
 - :us: English
 - :cn: Chinese (Simplified)
 
-### :computer: Languages
+### :heart: Languages
 
-- Python (especially asyncio)
+- Python (Especially `asyncio`)
 - Golang
-- JavaScript (TypeScript)
-- ...
 
 ### :link: Links
 
-- [Portfolio](https://sarisia.cc/)
-- [Blog](https://note.sarisia.cc/)
-- [Twitter](https://twitter.com/A1ces)
-- [Qiita](https://qiita.com/sarisia)
+- [Portfolio (sarisia.cc)](https://sarisia.cc/)
+- [Blog (note.sarisia.cc)](https://note.sarisia.cc/)
+- [Twitter (twitter.com/A1ces)](https://twitter.com/A1ces)
+- [Qiita (qiita.com/sarisia)](https://qiita.com/sarisia)
