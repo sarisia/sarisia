@@ -11,13 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: sarisia/actions-readme-feed@v1
+        id: feed
         with:
           url: 'https://note.sarisia.cc/index.xml'
           file: 'README.md'
-      - run: |
+      - name: push to master
+        if: steps.feed.outputs.changed
+        run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add .
-          git commit -m "docs: update feed" || true
+          git commit -m "docs: update feed"
           git push
-    
