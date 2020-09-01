@@ -16,7 +16,7 @@ jobs:
           url: 'https://note.sarisia.cc/index.xml'
           file: 'README.md'
       - name: push to master
-        if: ${{ steps.feed.outputs.changed }}
+        if: ${{ steps.feed.outputs.changed == true }}
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
