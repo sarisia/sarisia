@@ -23,3 +23,7 @@ jobs:
           git add .
           git commit -m "docs: update feed"
           git push
+      - uses: sarisia/actions-status-discord@v1
+        if: ${{ steps.feed.outputs.changed == true }}
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }} 
