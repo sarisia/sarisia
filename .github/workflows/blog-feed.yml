@@ -45,3 +45,7 @@ jobs:
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_SECRET }}
           access-token: ${{ secrets.ACCESS_TOKEN }}
           access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+      - uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          title: tweet latest entry
