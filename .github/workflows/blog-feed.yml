@@ -1,0 +1,47 @@
+name: 'blog feed ci'
+on:
+  workflow_dispatch:
+  push:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.feed.outputs.changed }}
+      items: ${{ steps.feed.outputs.items }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: sarisia/actions-readme-feed@v1
+        id: feed
+        with:
+          url: 'https://note.sarisia.cc/index.xml'
+          file: 'README.md'
+      - name: push to master
+        if: ${{ steps.feed.outputs.changed == true }}
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git add .
+          git commit -m "docs: update feed"
+          git push
+      - uses: sarisia/actions-status-discord@v1
+        if: ${{ steps.feed.outputs.changed == true }}
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          title: update readme with blog feed
+  tweet:
+    runs-on: ubuntu-latest
+    needs: readme
+    if: needs.readme.outputs.changed == true
+    steps:
+      - uses: ethomson/send-tweet-action@v1
+        with:
+          status: |
+            New post: ${{ fromJson(needs.readme.outputs.items)[0].title }}
+            ${{ fromJson(needs.readme.outputs.items)[0].link }}
+          consumer-key: ${{ secrets.TWITTER_CONSUMER_KEY }}
+          consumer-secret: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
