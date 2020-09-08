@@ -18,6 +18,7 @@ jobs:
         with:
           url: 'https://note.sarisia.cc/index.xml'
           file: 'README.md'
+          timezone: 'Asia/Tokyo'
       - name: push to master
         if: steps.feed.outputs.changed == true
         run: |
