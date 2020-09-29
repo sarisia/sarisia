@@ -21,14 +21,12 @@ jobs:
           timezone: 'Asia/Tokyo'
       - name: push to master
         if: steps.feed.outputs.changed == true
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add .
-          git commit -m "docs: update feed"
-          git push
+        id: commit
+        uses: sarisia/actions-commit@master
+        with:
+          message: "docs: update feed"        
       - uses: sarisia/actions-status-discord@v1
-        if: steps.feed.outputs.changed == true
+        if: steps.commit.outputs.changed == true
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           title: update readme with blog feed
