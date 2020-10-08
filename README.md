@@ -12,7 +12,7 @@
 - Aug 21 - [C.UTF-8 とは何だったのか](https://note.sarisia.cc/entry/what-is-c-utf8/)
 <!-- feed end -->
 
-> Generated with [Actions Readme Feed](https://github.com/marketplace/actions/actions-readme-feed)
+> Generated with [sarisia/actions-readme-feed](https://github.com/marketplace/actions/actions-readme-feed) & GitHub Actions
 
 ### :abc: Natural Languages
 
@@ -20,10 +20,11 @@
 - :us: English
 - :cn: Chinese (Simplified)
 
-### :heart: Languages
+### :heart: Interested in
 
 - Python (Especially `asyncio`)
 - Golang
+- TypeScript
 
 ### :link: Links
 
