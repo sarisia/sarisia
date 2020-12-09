@@ -1,6 +1,6 @@
 ## :ramen: Fu Takakazu (a.k.a Sarisia)
 
-[![](https://github-readme-stats.vercel.app/api?username=sarisia&count_private=true&show_icons=true&bg_color=30,e55d87,5fc3e4&title_color=ffffff&icon_color=ffffff&text_color=ffffff)](https://github.com/anuraghazra/github-readme-stats)
+[![](https://github-readme-stats-sarisia.vercel.app/api?username=sarisia&count_private=true&show_icons=true&bg_color=30,e55d87,5fc3e4&title_color=ffffff&icon_color=ffffff&text_color=ffffff)](https://github.com/anuraghazra/github-readme-stats)
 
 ### :memo: Recent Blog Posts
 
