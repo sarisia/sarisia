@@ -5,11 +5,11 @@
 ### :memo: Recent Blog Posts
 
 <!-- feed start -->
+- Jan 03 - [Slash CommandsでサーバレスなDiscordアプリを作る](https://note.sarisia.cc/entry/discord-slash-commands/)
 - Nov 19 - [はてブを見たくない人のためのChrome拡張を作った](https://note.sarisia.cc/entry/no-hatena-bookmark/)
 - Oct 07 - [GitHub Codespaces カスタマイズのコツ](https://note.sarisia.cc/entry/customizing-codespaces/)
 - Sep 27 - [GitHub Actions ランタイムを多言語化するアクションを作った](https://note.sarisia.cc/entry/github-actions-setup-icu/)
 - Sep 23 - [GitHub ActionsでICU依存の関数を使うな](https://note.sarisia.cc/entry/github-actions-icu/)
-- Sep 03 - [GitHub Actions で真偽値を正しく扱う](https://note.sarisia.cc/entry/boolean-in-github-actions/)
 <!-- feed end -->
 
 > Generated with [sarisia/actions-readme-feed](https://github.com/marketplace/actions/actions-readme-feed) & GitHub Actions
