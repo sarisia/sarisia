@@ -20,21 +20,15 @@
 - :us: English
 - :cn: Chinese (Simplified)
 
-### :heart: Interested in
-
-- Python (Especially `asyncio`)
-- Golang
-- TypeScript
-
 ### :link: Links
 
 - [Portfolio (sarisia.cc)](https://sarisia.cc/)
 - [Blog (note.sarisia.cc)](https://note.sarisia.cc/)
-- [Twitter (twitter.com/A1ces)](https://twitter.com/A1ces)
+- [Zenn (zenn.dev/sarisia)](https://zenn.dev/sarisia)
 - [Qiita (qiita.com/sarisia)](https://qiita.com/sarisia)
+- [Twitter (twitter.com/A1ces)](https://twitter.com/A1ces)
 
 ### :octocat: Related Repositories
 
 - [Sarisia](https://github.com/sarisia?tab=repositories) - My own projects go here
 - [Neuenmuller](https://github.com/neuenmuller) - Forks of OSS projects
-- [Aria Music](https://github.com/aria-music) - Full-featured music player
