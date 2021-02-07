@@ -16,7 +16,10 @@ jobs:
       - uses: sarisia/actions-readme-feed@v1
         id: feed
         with:
-          url: 'https://note.sarisia.cc/index.xml'
+          url: |
+            https://note.sarisia.cc/index.xml
+            https://zenn.dev/sarisia/feed
+            https://qiita.com/sarisia/feed
           file: 'README.md'
           timezone: 'Asia/Tokyo'
       - name: push to master
