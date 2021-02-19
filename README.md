@@ -10,8 +10,8 @@
 - Jan 29 - [GitHubへのヤバいコードお漏らしを発見する方法を夢の中で考えてみる](https://zenn.dev/sarisia/articles/40a0363bcfaf73)
 - Jan 03 - [Slash CommandsでサーバレスなDiscordアプリを作る](https://note.sarisia.cc/entry/discord-slash-commands/)
 - Nov 19 - [はてブを見たくない人のためのChrome拡張を作った](https://note.sarisia.cc/entry/no-hatena-bookmark/)
-- Oct 07 - [GitHub Codespaces カスタマイズのコツ](https://qiita.com/sarisia/items/9a0143965a58cec0836a)
 - Oct 07 - [GitHub Codespaces カスタマイズのコツ](https://note.sarisia.cc/entry/customizing-codespaces/)
+- Sep 27 - [GitHub Actions ランタイムを多言語化するアクションを作った](https://note.sarisia.cc/entry/github-actions-setup-icu/)
 <!-- feed end -->
 
 > Generated with [sarisia/actions-readme-feed](https://github.com/marketplace/actions/actions-readme-feed) & GitHub Actions
