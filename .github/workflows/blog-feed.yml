@@ -22,6 +22,7 @@ jobs:
             https://qiita.com/sarisia/feed
           file: 'README.md'
           timezone: 'Asia/Tokyo'
+          ensure_all: true
       - name: push to master
         if: steps.feed.outputs.changed == true
         id: commit
