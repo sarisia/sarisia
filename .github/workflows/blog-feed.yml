@@ -20,7 +20,6 @@ jobs:
             https://note.sarisia.cc/index.xml
             https://zenn.dev/sarisia/feed
             https://qiita.com/sarisia/feed
-            https://invalid.sarisia.cc/nothing.xml
           file: 'README.md'
           timezone: 'Asia/Tokyo'
           ensure_all: true
@@ -31,7 +30,7 @@ jobs:
         with:
           message: "docs: update feed"        
       - uses: sarisia/actions-status-discord@v1
-        if: steps.commit.outputs.changed == true
+        if: failure() || steps.commit.outputs.changed == true
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           title: update readme with blog feed
