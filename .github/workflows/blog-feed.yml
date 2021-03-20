@@ -22,6 +22,7 @@ jobs:
             https://qiita.com/sarisia/feed
           file: 'README.md'
           timezone: 'Asia/Tokyo'
+          ensure_all: true
       - name: push to master
         if: steps.feed.outputs.changed == true
         id: commit
@@ -29,7 +30,7 @@ jobs:
         with:
           message: "docs: update feed"        
       - uses: sarisia/actions-status-discord@v1
-        if: steps.commit.outputs.changed == true
+        if: failure() || steps.commit.outputs.changed == true
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           title: update readme with blog feed
