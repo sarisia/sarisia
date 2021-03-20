@@ -20,6 +20,7 @@ jobs:
             https://note.sarisia.cc/index.xml
             https://zenn.dev/sarisia/feed
             https://qiita.com/sarisia/feed
+            https://invalid.sarisia.cc/nothing.xml
           file: 'README.md'
           timezone: 'Asia/Tokyo'
           ensure_all: true
