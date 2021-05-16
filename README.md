@@ -7,11 +7,11 @@
 ### :memo: Recent Blog Posts
 
 <!-- feed start -->
+- May 16 - [ブラウザだけでOS自作入門しよう](https://zenn.dev/sarisia/articles/8dbe4fe2f1c656)
 - Mar 29 - [Docker ではじめる "ゼロからのOS自作入門"](https://zenn.dev/sarisia/articles/6b57ea835344b6)
 - Feb 24 - [docker-compose の bind mount を1行で書くな](https://zenn.dev/sarisia/articles/0c1db052d09921)
 - Jan 29 - [GitHubへのヤバいソースコードのお漏らしを発見する方法を夢の中で考えてみる](https://zenn.dev/sarisia/articles/40a0363bcfaf73)
 - Jan 03 - [Slash CommandsでサーバレスなDiscordアプリを作る](https://note.sarisia.cc/entry/discord-slash-commands/)
-- Nov 19 - [はてブを見たくない人のためのChrome拡張を作った](https://note.sarisia.cc/entry/no-hatena-bookmark/)
 <!-- feed end -->
 
 > Generated with [sarisia/actions-readme-feed](https://github.com/marketplace/actions/actions-readme-feed) & GitHub Actions
