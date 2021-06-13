@@ -32,5 +32,4 @@
 
 ### :octocat: Related Repositories
 
-- [Sarisia](https://github.com/sarisia?tab=repositories) - My own projects go here
 - [Neuenmuller](https://github.com/neuenmuller) - Forks of OSS projects
