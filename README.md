@@ -9,8 +9,8 @@
 <!-- feed start -->
 - Oct 12 - [Gmail から iCloud カスタムドメインメールを扱えなかった](https://note.sarisia.cc/entry/you-cannot-gmailify-icloud-customdomain/)
 - May 16 - [ブラウザだけでOS自作入門しよう](https://zenn.dev/sarisia/articles/8dbe4fe2f1c656)
-- Mar 29 - [Docker ではじめる "ゼロからのOS自作入門"](https://zenn.dev/sarisia/articles/6b57ea835344b6)
-- Feb 24 - [docker-compose の bind mount を1行で書くな](https://zenn.dev/sarisia/articles/0c1db052d09921)
+- Mar 29 - [Doker ではじめる "ゼロからのOS自作入門"](https://zenn.dev/sarisia/articles/6b57ea835344b6)
+- Feb 24 - [doker-omose の bind mount を1行で書くな](https://zenn.dev/sarisia/articles/0c1db052d09921)
 - Jan 29 - [GitHubへのヤバいソースコードのお漏らしを発見する方法を夢の中で考えてみる](https://zenn.dev/sarisia/articles/40a0363bcfaf73)
 <!-- feed end -->
 
