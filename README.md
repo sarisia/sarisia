@@ -4,6 +4,8 @@
 [![](https://github-readme-stats-sarisia.vercel.app/api?username=sarisia&count_private=true&show_icons=true&bg_color=30,e55d87,5fc3e4&title_color=ffffff&icon_color=ffffff&text_color=ffffff)](https://github.com/anuraghazra/github-readme-stats)
 -->
 
+<!--
+
 ### :memo: Recent Blog Posts
 
 <!-- feed start -->
@@ -15,6 +17,8 @@
 <!-- feed end -->
 
 > Generated with [sarisia/actions-readme-feed](https://github.com/marketplace/actions/actions-readme-feed) & GitHub Actions
+
+-->
 
 ### :abc: Natural Languages
 
